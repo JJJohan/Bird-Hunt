@@ -147,7 +147,6 @@
 		38B4B4DD141C99B40077E0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B4B4DC141C99B40077E0FB /* main.m */; };
 		38B4B4E0141C99B40077E0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B4B4DF141C99B40077E0FB /* AppDelegate.m */; };
 		38B4B4E3141C99B40077E0FB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B4B4E2141C99B40077E0FB /* RootViewController.m */; };
-		38B4B4E6141C99B40077E0FB /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B4B4E5141C99B40077E0FB /* HelloWorldLayer.m */; };
 		38B4B4E9141C99B40077E0FB /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 38B4B4E8141C99B40077E0FB /* grossini_dance_atlas.png */; };
 /* End PBXBuildFile section */
 
@@ -444,8 +443,6 @@
 		38B4B4DF141C99B40077E0FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38B4B4E1141C99B40077E0FB /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		38B4B4E2141C99B40077E0FB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		38B4B4E4141C99B40077E0FB /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		38B4B4E5141C99B40077E0FB /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		38B4B4E7141C99B40077E0FB /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		38B4B4E8141C99B40077E0FB /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -508,8 +505,6 @@
 				38B4B4DF141C99B40077E0FB /* AppDelegate.m */,
 				38B4B4E1141C99B40077E0FB /* RootViewController.h */,
 				38B4B4E2141C99B40077E0FB /* RootViewController.m */,
-				38B4B4E4141C99B40077E0FB /* HelloWorldLayer.h */,
-				38B4B4E5141C99B40077E0FB /* HelloWorldLayer.m */,
 				38B4B4E7141C99B40077E0FB /* GameConfig.h */,
 				38B4B331141C99B20077E0FB /* Resources */,
 				38B4B345141C99B30077E0FB /* libs */,
@@ -1145,7 +1140,6 @@
 				38B4B4DD141C99B40077E0FB /* main.m in Sources */,
 				38B4B4E0141C99B40077E0FB /* AppDelegate.m in Sources */,
 				38B4B4E3141C99B40077E0FB /* RootViewController.m in Sources */,
-				38B4B4E6141C99B40077E0FB /* HelloWorldLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
