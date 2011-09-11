@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  BirdHunt
 //
-//  Created by Johan Rensenbrink on 26/08/11.
+//  Created by Johan Rensenbrink on 11/09/11.
 //  Copyright __MyCompanyName__ 2011. All rights reserved.
 //
 
@@ -10,8 +10,7 @@
 
 #import "AppDelegate.h"
 #import "GameConfig.h"
-#import "MenuLayer.h"
-#import "GameLayer.h"
+#import "HelloWorldLayer.h"
 #import "RootViewController.h"
 
 @implementation AppDelegate
@@ -49,13 +48,13 @@
 	if( ! [CCDirector setDirectorType:kCCDirectorTypeDisplayLink] )
 		[CCDirector setDirectorType:kCCDirectorTypeDefault];
 	
-	[[CCDirector sharedDirector] setProjection:CCDirectorProjection2D];	
+	
 	CCDirector *director = [CCDirector sharedDirector];
 	
 	// Init the View Controller
 	viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
 	viewController.wantsFullScreenLayout = YES;
-
+	
 	//
 	// Create the EAGLView manually
 	//  1. Create a RGB565 format. Alternative: RGBA8
@@ -110,12 +109,8 @@
 	// Removes the startup flicker
 	[self removeStartupFlicker];
 	
-    CCScene *scene = [CCScene node];
-    
-	CCLayerMultiplex *layer = [CCLayerMultiplex layerWithLayers:  [MenuLayer node], [GameLayer node], nil];
-	[scene addChild: layer z:0];
-    
-	[director runWithScene: scene];
+	// Run the intro Scene
+	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
 }
 
 
