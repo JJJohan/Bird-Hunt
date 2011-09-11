@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backgroundSpeed</key>
+	<integer>1</integer>
+	<key>cloudSpeed</key>
+	<integer>3</integer>
+	<key>groundSpeed</key>
+	<integer>5</integer>
+	<key>stopOnImpact</key>
+	<true/>
+	<key>stopSpeed</key>
+	<real>0.1</real>
+	<key>obstacleChance</key>
+	<integer>1</integer>
+	<key>theme</key>
+	<integer>1</integer>
+	<key>Bird</key>
+	<dict>
+		<key>rotSpeed</key>
+		<real>0.05</real>
+		<key>maxRotRadians</key>
+		<real>0.1</real>
+		<key>upDownSpeed</key>
+		<integer>3</integer>
+		<key>wingInterval</key>
+		<real>0.1</real>
+		<key>bobSpeed</key>
+		<real>0.1</real>
+		<key>bobAmount</key>
+		<integer>3</integer>
+		<key>backDistance</key>
+		<integer>50</integer>
+		<key>canHitGround</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
